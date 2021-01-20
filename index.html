@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Trivia</title>
+	</head>
+	<body>
+		<header class="header">
+			<nav class="nav ">
+				<h2>TRIVIA</h2>
+				<div class="nav_list">
+					
+					<label class = "label" for="">Ingresar</label>
+					<input class="user" placeholder="Username "type="text" />
+                    <input class="pass" placeholder="Password" type="password" />
+                    <input class="login" type="button" value="LOGIN" />
+                    <input class="register" type="button" value="REGISTRATE" />
+				</div>
+			</nav>
+		</header>
+	
+		<section class="main hide">
+			<h1>WELCOME TO TRIVIA</h1>
+			<h2>Choose a category</h2>
+		
+        <div class="container">
+			
+          <div class="question" id="cultura">
+              <h5>GENERAL KNOWLEDGE </h5>
+          </div>
+		  <div class="question" id="deporte">
+            <h5>SPORTS</h5>
+        </div>
+        <div  class="question" id="geografia">
+            <h5>GEOGRAFY</h5>
+        </div>
+		</div>
+	</section>
+	<section class="preguntas hide">
+	
+	</section>
+
+		<form class="form hide">
+			<div class="box_close">
+				<span class="close">❌</span>
+			</div>
+			<div class="form_box ">
+				<label for="">CREA TU USUARIO</label>
+				<input class="usuario create" type="text" />
+			</div>
+			<div class="form_box ">
+				<label for="">CREA TU CONTRASEÑA:</label>
+				<input class="newPass create" type="number" />
+			</div>
+
+			<div class="form_box btn">
+				<input class="registrar" type="button" value="JOIN"></input>
+			</div>
+		</form>
+
+  
+
+</div>
+		<div class="overlay hide"></div>
+
+		<script src="app.js"></script>
+	</body>
+</html>
+	<!---
+<div class="preguntas_container">
+	
+	<p>¿Quien fue Juana de Arco?</p>
+	<ul class="items">
+		<li class="opcion">Luchadora </li>
+		<li> class="opcion"Guerrera</li>
+		<li class="opcion"> Libertadora</li>
+		<li class="opcion">Mujer</li>
+
+	</ul>
+
+</div>
+--->
