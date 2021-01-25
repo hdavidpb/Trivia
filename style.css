@@ -343,6 +343,11 @@ p {
 	width: 100%;
 	text-align: right;
 }
+.question_number {
+	width: 100%;
+	text-align: right;
+	padding: 8px;
+}
 /*---------------------------RESPONSIVE-----------------------------------------------*/
 
 @media (max-width: 1000px) {

@@ -270,11 +270,11 @@ const printQuestions = (i, objQuestions) => {
 	<div class="items">
 	${respuestas.join("")}
 
-
-	
-	
-
-	</items>`;
+	</div>
+	<div class="question_number">
+	Question ${currentQuestionIndex + 1}/20
+	</div>
+	`;
 
 		currentQuestionIndex++;
 
